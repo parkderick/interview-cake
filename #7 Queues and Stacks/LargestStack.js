@@ -5,6 +5,8 @@
 // Use your Stack class to implement a new class MaxStack with a method getMax() that returns the largest element in the stack. getMax() should not remove the item.
 
 // Your stacks will contain only integers.
+// Time: O(1)
+// Space: O(m) where m is the number of operations performed on the stack.
 
 class MaxStack {
   constructor() {
